@@ -1183,3 +1183,5 @@ Ok.
 2019-12-04 23:08:34 - Info - operation 'async_action', peak memory usage. 40185320
 2019-12-09 20:42:06 - Error - Error: Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table 'wfmmexico.organization' doesn't exist, mysql_errno = 1146.
 2019-12-09 20:46:17 - Error - Error: Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table 'wfmmexico.organization' doesn't exist, mysql_errno = 1146.
+2020-03-18 16:01:59 - Error - Error: Could not connect to the DB server: host = localhost, user = itop, mysql_error = 2002, mysql_errno = No connection could be made because the target machine actively refused it.
+.

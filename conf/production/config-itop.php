@@ -58,7 +58,7 @@ $MySettings = array(
 
 	'db_collation' => 'utf8_unicode_ci',
 
-	'db_host' => 'localhost',
+	'db_host' => 'alltic.co',
 
 	'db_name' => 'alltic_wfm_mx',
 

@@ -215,3 +215,14 @@ Debug trace:
 2019-12-09 20:42:06 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table \'wfmmexico.organization\' doesn\'t exist, mysql_errno = 1146', '2019-12-09 20:42:06', '', 'EventIssue'), mysql_error = Table 'wfmmexico.priv_event' doesn't exist, mysql_errno = 1146
 2019-12-09 20:46:17 | Error | Failed to log issue into the DB
 2019-12-09 20:46:17 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table \'wfmmexico.organization\' doesn\'t exist, mysql_errno = 1146', '2019-12-09 20:46:17', '', 'EventIssue'), mysql_error = Table 'wfmmexico.priv_event' doesn't exist, mysql_errno = 1146
+2020-03-18 16:14:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:14:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:14:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:15:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:15:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:15:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:17:47 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:17:47 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:37:06 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:37:06 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2020-03-18 16:37:07 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
