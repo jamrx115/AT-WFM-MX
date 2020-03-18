@@ -8,8 +8,8 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
-	'Class:UserRequest/Attribute:tel_contacto' => 'Teléfono Contacto',
-	'Class:UserRequest/Attribute:tel_contacto+' => 'Teléfono Contacto',
+	'Class:UserRequest/Attribute:tel_contacto' => 'Teléfono',
+	'Class:UserRequest/Attribute:tel_contacto+' => 'Teléfono',
         'Class:UserRequest/Attribute:latitud' => 'Ciudad',
 	'Class:UserRequest/Attribute:latitud+' => 'Ciudad',
     'Class:UserRequest/Attribute:longitud' => 'SSID',
@@ -34,5 +34,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:UserRequest/Attribute:tipo_tecnologia+' => 'Tipo de Tecnología',
 'Class:UserRequest/Attribute:fecha_ejecucion' => 'Fecha/Hora Ejecución',
 	'Class:UserRequest/Attribute:fecha_ejecuciona+' => 'Fecha/Hora Ejecución',
+'Class:UserRequest/Attribute:email' => 'E-Mail',
+	'Class:UserRequest/Attribute:email+' => 'E-Mail',	
 ));
 ?>

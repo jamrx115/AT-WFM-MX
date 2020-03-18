@@ -2052,6 +2052,8 @@ Dict::Add('EN US', "English", "English", array(
 	'Class:UserRequest/Attribute:tipo_tecnologia' => 'Tipo de Tecnología',
 	'Class:UserRequest/Attribute:tipo_tecnologia+' => 'Tipo de Tecnología',
 	'Class:UserRequest/Attribute:fecha_ejecuciona+' => 'Fecha/Hora Ejecución',
+	'Class:UserRequest/Attribute:email' => 'E-Mail',
+	'Class:UserRequest/Attribute:email+' => 'E-Mail',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id' => 'Coverage window',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_id+' => '',
 	'Class:lnkCustomerContractToService/Attribute:coveragewindow_name' => 'Coverage window name',
