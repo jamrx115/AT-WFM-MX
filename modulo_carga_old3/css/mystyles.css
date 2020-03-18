@@ -1,0 +1,50 @@
+/*!
+ * Alltic
+ *
+ */
+ 
+ .space {
+	 padding:15px;
+ }
+ .top-line-gray {
+	border-top: 2px #e5e5e5 solid;
+	width: 50%;
+    margin: auto;
+	margin-bottom: 10px;
+ }
+ .under-line-gray {
+	border-top: 2px #e5e5e5 solid;
+    margin: 30px 60px 0px 45px;
+ }
+ .below-under-line {
+	 margin: 0px 60px;
+ }
+ .space-between-rows {
+	 margin-bottom: 10px;
+ }
+ .align-center {
+	 text-align: center;
+ }
+ .big-bg-classes p{
+	 padding: 15px;
+ }
+ .box-delete {
+	border: 2px #f2dede solid;
+	padding: 15px 0px;
+ }
+ .controls .popover{
+	background-color: #f2dede;
+	color: #a94442;
+	font-weight: 700;
+ }
+ .btn-row-margin{
+	 margin-top:25px;
+ }
+ .tendido-row {
+	border: 2px #ddd dotted;
+    padding: 10px;
+	margin-bottom: 5px;
+ }
+ .list-none-style {
+	 list-style: none;
+ }

@@ -1,0 +1,386 @@
+2016-03-16 06:50:21 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-28 22:28:51 | Error | Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop
+2016-03-28 22:32:58 | Error | Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop
+2016-03-28 22:33:39 | Error | Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop
+2016-03-28 22:33:43 | Error | Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop
+2016-03-30 01:28:44 | Error | Error: el Usuario no está asociado con un Contacto/Persona. Por favor contacte al Administrador de iTop
+2016-03-30 15:10:32 | Error | Error: estimulo invalido "ev_close" en objeto R-000251 en estado "Nuevo".
+2016-03-30 17:57:23 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:05:56 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:09:53 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:10:09 | Error | Failed to issue SQL query: query = SELECT DISTINCT `UserRequest_ticket_request`.`id` AS `UserRequestid`, `UserRequest_ticket`.`ref` AS `UserRequestref`, `UserRequest_ticket`.`org_id` AS `UserRequestorg_id`, `Organization_org_id_organization`.`name` AS `UserRequestorg_name`, `UserRequest_ticket`.`caller_id` AS `UserRequestcaller_id`, `Person_caller_id_contact`.`name` AS `UserRequestcaller_name`, `UserRequest_ticket`.`team_id` AS `UserRequestteam_id`, `Team_team_id_contact`.`email` AS `UserRequestteam_name`, `UserRequest_ticket`.`agent_id` AS `UserRequestagent_id`, `Person_agent_id_contact`.`name` AS `UserRequestagent_name`, `UserRequest_ticket`.`title` AS `UserRequesttitle`, `UserRequest_ticket`.`description` AS `UserRequestdescription`, `UserRequest_ticket`.`start_date` AS `UserRequeststart_date`, `UserRequest_ticket`.`end_date` AS `UserRequestend_date`, `UserRequest_ticket`.`last_update` AS `UserRequestlast_update`, `UserRequest_ticket`.`close_date` AS `UserRequestclose_date`, `UserRequest_ticket`.`private_log` AS `UserRequestprivate_log`, `UserRequest_ticket`.`private_log_index` AS `UserRequestprivate_log_index`, `UserRequest_ticket_request`.`status` AS `UserRequeststatus`, `UserRequest_ticket_request`.`request_type` AS `UserRequestrequest_type`, `UserRequest_ticket_request`.`impact` AS `UserRequestimpact`, `UserRequest_ticket_request`.`priority` AS `UserRequestpriority`, `UserRequest_ticket_request`.`urgency` AS `UserRequesturgency`, `UserRequest_ticket_request`.`origin` AS `UserRequestorigin`, `UserRequest_ticket_request`.`approver_id` AS `UserRequestapprover_id`, `Person_approver_id_contact`.`email` AS `UserRequestapprover_email`, `UserRequest_ticket_request`.`service_id` AS `UserRequestservice_id`, `Service_service_id_service`.`name` AS `UserRequestservice_name`, `UserRequest_ticket_request`.`servicesubcategory_id` AS `UserRequestservicesubcategory_id`, `ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`name` AS `UserRequestservicesubcategory_name`, `UserRequest_ticket_request`.`escalation_flag` AS `UserRequestescalation_flag`, `UserRequest_ticket_request`.`escalation_reason` AS `UserRequestescalation_reason`, `UserRequest_ticket_request`.`assignment_date` AS `UserRequestassignment_date`, `UserRequest_ticket_request`.`resolution_date` AS `UserRequestresolution_date`, `UserRequest_ticket_request`.`last_pending_date` AS `UserRequestlast_pending_date`, `UserRequest_ticket_request`.`cumulatedpending_timespent` AS `UserRequestcumulatedpending`, `UserRequest_ticket_request`.`cumulatedpending_started` AS `UserRequestcumulatedpending_started`, `UserRequest_ticket_request`.`cumulatedpending_laststart` AS `UserRequestcumulatedpending_laststart`, `UserRequest_ticket_request`.`cumulatedpending_stopped` AS `UserRequestcumulatedpending_stopped`, `UserRequest_ticket_request`.`tto_timespent` AS `UserRequesttto`, `UserRequest_ticket_request`.`tto_started` AS `UserRequesttto_started`, `UserRequest_ticket_request`.`tto_laststart` AS `UserRequesttto_laststart`, `UserRequest_ticket_request`.`tto_stopped` AS `UserRequesttto_stopped`, `UserRequest_ticket_request`.`tto_75_deadline` AS `UserRequesttto_75_deadline`, `UserRequest_ticket_request`.`tto_75_passed` AS `UserRequesttto_75_passed`, `UserRequest_ticket_request`.`tto_75_triggered` AS `UserRequesttto_75_triggered`, `UserRequest_ticket_request`.`tto_75_overrun` AS `UserRequesttto_75_overrun`, `UserRequest_ticket_request`.`tto_100_deadline` AS `UserRequesttto_100_deadline`, `UserRequest_ticket_request`.`tto_100_passed` AS `UserRequesttto_100_passed`, `UserRequest_ticket_request`.`tto_100_triggered` AS `UserRequesttto_100_triggered`, `UserRequest_ticket_request`.`tto_100_overrun` AS `UserRequesttto_100_overrun`, `UserRequest_ticket_request`.`ttr_timespent` AS `UserRequestttr`, `UserRequest_ticket_request`.`ttr_started` AS `UserRequestttr_started`, `UserRequest_ticket_request`.`ttr_laststart` AS `UserRequestttr_laststart`, `UserRequest_ticket_request`.`ttr_stopped` AS `UserRequestttr_stopped`, `UserRequest_ticket_request`.`ttr_75_deadline` AS `UserRequestttr_75_deadline`, `UserRequest_ticket_request`.`ttr_75_passed` AS `UserRequestttr_75_passed`, `UserRequest_ticket_request`.`ttr_75_triggered` AS `UserRequestttr_75_triggered`, `UserRequest_ticket_request`.`ttr_75_overrun` AS `UserRequestttr_75_overrun`, `UserRequest_ticket_request`.`ttr_100_deadline` AS `UserRequestttr_100_deadline`, `UserRequest_ticket_request`.`ttr_100_passed` AS `UserRequestttr_100_passed`, `UserRequest_ticket_request`.`ttr_100_triggered` AS `UserRequestttr_100_triggered`, `UserRequest_ticket_request`.`ttr_100_overrun` AS `UserRequestttr_100_overrun`, `UserRequest_ticket_request`.`tto_100_deadline` AS `UserRequesttto_escalation_deadline`, `UserRequest_ticket_request`.`tto_100_passed` AS `UserRequestsla_tto_passed`, `UserRequest_ticket_request`.`tto_100_overrun` AS `UserRequestsla_tto_over`, `UserRequest_ticket_request`.`ttr_100_deadline` AS `UserRequestttr_escalation_deadline`, `UserRequest_ticket_request`.`ttr_100_passed` AS `UserRequestsla_ttr_passed`, `UserRequest_ticket_request`.`ttr_100_overrun` AS `UserRequestsla_ttr_over`, `UserRequest_ticket_request`.`time_spent` AS `UserRequesttime_spent`, `UserRequest_ticket_request`.`resolution_code` AS `UserRequestresolution_code`, `UserRequest_ticket_request`.`solution` AS `UserRequestsolution`, `UserRequest_ticket_request`.`pending_reason` AS `UserRequestpending_reason`, `UserRequest_ticket_request`.`tipo_pendiente` AS `UserRequesttipo_pendiente`, `UserRequest_ticket_request`.`parent_request_id` AS `UserRequestparent_request_id`, `UserRequest_parent_request_id_ticket`.`ref` AS `UserRequestparent_request_ref`, `UserRequest_ticket_request`.`public_log` AS `UserRequestpublic_log`, `UserRequest_ticket_request`.`public_log_index` AS `UserRequestpublic_log_index`, `UserRequest_ticket_request`.`user_satisfaction` AS `UserRequestuser_satisfaction`, `UserRequest_ticket_request`.`user_commment` AS `UserRequestuser_comment`, `UserRequest_ticket_request`.`num_orden_compra` AS `UserRequestnum_orden_compra`, `UserRequest_ticket_request`.`direccion` AS `UserRequestdireccion`, `UserRequest_ticket_request`.`num_ot` AS `UserRequestnum_ot`, `UserRequest_ticket_request`.`num_instal` AS `UserRequestnum_instal`, `UserRequest_ticket_request`.`nom_cliente` AS `UserRequestnom_cliente`, `UserRequest_ticket_request`.`nom_contacto` AS `UserRequestnom_contacto`, `UserRequest_ticket_request`.`tel_contacto` AS `UserRequesttel_contacto`, `UserRequest_ticket_request`.`fecha_ejecucion` AS `UserRequestfecha_ejecucion`, `UserRequest_ticket_request`.`departamento` AS `UserRequestdepartamento`, `UserRequest_ticket_request`.`municipio` AS `UserRequestmunicipio`, `UserRequest_ticket_request`.`latitud` AS `UserRequestlatitud`, `UserRequest_ticket_request`.`longitud` AS `UserRequestlongitud`, `UserRequest_ticket_request`.`tipo_acceso` AS `UserRequesttipo_acceso`, `UserRequest_ticket_request`.`tipo_tecnologia` AS `UserRequesttipo_tecnologia`, `UserRequest_ticket_request`.`medidas_feeders` AS `UserRequestmedidas_feeders`, `UserRequest_ticket_request`.`link_modulo` AS `UserRequestlink_modulo`, `UserRequest_ticket_request`.`link_venta` AS `UserRequestlink_venta`, `UserRequest_ticket`.`finalclass` AS `UserRequestfinalclass`, CAST(CONCAT(COALESCE(`UserRequest_ticket`.`ref`, '')) AS CHAR) AS `UserRequestfriendlyname`, CAST(CONCAT(COALESCE(`Organization_org_id_organization`.`name`, '')) AS CHAR) AS `UserRequestorg_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_caller_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_caller_id_contact`.`name`, '')) AS CHAR) AS `UserRequestcaller_id_friendlyname`, CAST(CONCAT(COALESCE(`Team_team_id_contact`.`name`, '')) AS CHAR) AS `UserRequestteam_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_agent_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_agent_id_contact`.`name`, '')) AS CHAR) AS `UserRequestagent_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_approver_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_approver_id_contact`.`name`, '')) AS CHAR) AS `UserRequestapprover_id_friendlyname`, CAST(CONCAT(COALESCE(`Service_service_id_service`.`name`, '')) AS CHAR) AS `UserRequestservice_id_friendlyname`, CAST(CONCAT(COALESCE(`ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`name`, '')) AS CHAR) AS `UserRequestservicesubcategory_id_friendlyname`, CAST(CONCAT(COALESCE(`UserRequest_parent_request_id_ticket`.`ref`, '')) AS CHAR) AS `UserRequestparent_request_id_friendlyname` FROM `ticket_request` AS `UserRequest_ticket_request`LEFT JOIN (`person` AS `Person_approver_id_person` INNER JOIN `contact` AS `Person_approver_id_contact` ON `Person_approver_id_person`.`id` = `Person_approver_id_contact`.`id`) ON `UserRequest_ticket_request`.`approver_id` = `Person_approver_id_person`.`id`LEFT JOIN `service` AS `Service_service_id_service` ON `UserRequest_ticket_request`.`service_id` = `Service_service_id_service`.`id`LEFT JOIN `servicesubcategory` AS `ServiceSubcategory_servicesubcategory_id_servicesubcategory` ON `UserRequest_ticket_request`.`servicesubcategory_id` = `ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`id`LEFT JOIN (`ticket_request` AS `UserRequest_parent_request_id_ticket_request` INNER JOIN `ticket` AS `UserRequest_parent_request_id_ticket` ON `UserRequest_parent_request_id_ticket_request`.`id` = `UserRequest_parent_request_id_ticket`.`id`) ON `UserRequest_ticket_request`.`parent_request_id` = `UserRequest_parent_request_id_ticket_request`.`id`INNER JOIN (`ticket` AS `UserRequest_ticket` INNER JOIN `organization` AS `Organization_org_id_organization` ON `UserRequest_ticket`.`org_id` = `Organization_org_id_organization`.`id`LEFT JOIN (`person` AS `Person_caller_id_person` INNER JOIN `contact` AS `Person_caller_id_contact` ON `Person_caller_id_person`.`id` = `Person_caller_id_contact`.`id`) ON `UserRequest_ticket`.`caller_id` = `Person_caller_id_person`.`id`LEFT JOIN (`team` AS `Team_team_id_team` INNER JOIN `contact` AS `Team_team_id_contact` ON `Team_team_id_team`.`id` = `Team_team_id_contact`.`id`) ON `UserRequest_ticket`.`team_id` = `Team_team_id_team`.`id`LEFT JOIN (`person` AS `Person_agent_id_person` INNER JOIN `contact` AS `Person_agent_id_contact` ON `Person_agent_id_person`.`id` = `Person_agent_id_contact`.`id`) ON `UserRequest_ticket`.`agent_id` = `Person_agent_id_person`.`id`) ON `UserRequest_ticket_request`.`id` = `UserRequest_ticket`.`id` WHERE (`UserRequest_ticket_request`.`id` = '245')  , mysql_error = Unknown column 'UserRequest_ticket_request.num_orden_compra' in 'field list', mysql_errno = 1054
+2016-03-30 18:10:23 | Error | Failed to issue SQL query: query = SELECT DISTINCT `UserRequest_ticket_request`.`id` AS `UserRequestid`, `UserRequest_ticket`.`ref` AS `UserRequestref`, `UserRequest_ticket`.`org_id` AS `UserRequestorg_id`, `Organization_org_id_organization`.`name` AS `UserRequestorg_name`, `UserRequest_ticket`.`caller_id` AS `UserRequestcaller_id`, `Person_caller_id_contact`.`name` AS `UserRequestcaller_name`, `UserRequest_ticket`.`team_id` AS `UserRequestteam_id`, `Team_team_id_contact`.`email` AS `UserRequestteam_name`, `UserRequest_ticket`.`agent_id` AS `UserRequestagent_id`, `Person_agent_id_contact`.`name` AS `UserRequestagent_name`, `UserRequest_ticket`.`title` AS `UserRequesttitle`, `UserRequest_ticket`.`description` AS `UserRequestdescription`, `UserRequest_ticket`.`start_date` AS `UserRequeststart_date`, `UserRequest_ticket`.`end_date` AS `UserRequestend_date`, `UserRequest_ticket`.`last_update` AS `UserRequestlast_update`, `UserRequest_ticket`.`close_date` AS `UserRequestclose_date`, `UserRequest_ticket`.`private_log` AS `UserRequestprivate_log`, `UserRequest_ticket`.`private_log_index` AS `UserRequestprivate_log_index`, `UserRequest_ticket_request`.`status` AS `UserRequeststatus`, `UserRequest_ticket_request`.`request_type` AS `UserRequestrequest_type`, `UserRequest_ticket_request`.`impact` AS `UserRequestimpact`, `UserRequest_ticket_request`.`priority` AS `UserRequestpriority`, `UserRequest_ticket_request`.`urgency` AS `UserRequesturgency`, `UserRequest_ticket_request`.`origin` AS `UserRequestorigin`, `UserRequest_ticket_request`.`approver_id` AS `UserRequestapprover_id`, `Person_approver_id_contact`.`email` AS `UserRequestapprover_email`, `UserRequest_ticket_request`.`service_id` AS `UserRequestservice_id`, `Service_service_id_service`.`name` AS `UserRequestservice_name`, `UserRequest_ticket_request`.`servicesubcategory_id` AS `UserRequestservicesubcategory_id`, `ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`name` AS `UserRequestservicesubcategory_name`, `UserRequest_ticket_request`.`escalation_flag` AS `UserRequestescalation_flag`, `UserRequest_ticket_request`.`escalation_reason` AS `UserRequestescalation_reason`, `UserRequest_ticket_request`.`assignment_date` AS `UserRequestassignment_date`, `UserRequest_ticket_request`.`resolution_date` AS `UserRequestresolution_date`, `UserRequest_ticket_request`.`last_pending_date` AS `UserRequestlast_pending_date`, `UserRequest_ticket_request`.`cumulatedpending_timespent` AS `UserRequestcumulatedpending`, `UserRequest_ticket_request`.`cumulatedpending_started` AS `UserRequestcumulatedpending_started`, `UserRequest_ticket_request`.`cumulatedpending_laststart` AS `UserRequestcumulatedpending_laststart`, `UserRequest_ticket_request`.`cumulatedpending_stopped` AS `UserRequestcumulatedpending_stopped`, `UserRequest_ticket_request`.`tto_timespent` AS `UserRequesttto`, `UserRequest_ticket_request`.`tto_started` AS `UserRequesttto_started`, `UserRequest_ticket_request`.`tto_laststart` AS `UserRequesttto_laststart`, `UserRequest_ticket_request`.`tto_stopped` AS `UserRequesttto_stopped`, `UserRequest_ticket_request`.`tto_75_deadline` AS `UserRequesttto_75_deadline`, `UserRequest_ticket_request`.`tto_75_passed` AS `UserRequesttto_75_passed`, `UserRequest_ticket_request`.`tto_75_triggered` AS `UserRequesttto_75_triggered`, `UserRequest_ticket_request`.`tto_75_overrun` AS `UserRequesttto_75_overrun`, `UserRequest_ticket_request`.`tto_100_deadline` AS `UserRequesttto_100_deadline`, `UserRequest_ticket_request`.`tto_100_passed` AS `UserRequesttto_100_passed`, `UserRequest_ticket_request`.`tto_100_triggered` AS `UserRequesttto_100_triggered`, `UserRequest_ticket_request`.`tto_100_overrun` AS `UserRequesttto_100_overrun`, `UserRequest_ticket_request`.`ttr_timespent` AS `UserRequestttr`, `UserRequest_ticket_request`.`ttr_started` AS `UserRequestttr_started`, `UserRequest_ticket_request`.`ttr_laststart` AS `UserRequestttr_laststart`, `UserRequest_ticket_request`.`ttr_stopped` AS `UserRequestttr_stopped`, `UserRequest_ticket_request`.`ttr_75_deadline` AS `UserRequestttr_75_deadline`, `UserRequest_ticket_request`.`ttr_75_passed` AS `UserRequestttr_75_passed`, `UserRequest_ticket_request`.`ttr_75_triggered` AS `UserRequestttr_75_triggered`, `UserRequest_ticket_request`.`ttr_75_overrun` AS `UserRequestttr_75_overrun`, `UserRequest_ticket_request`.`ttr_100_deadline` AS `UserRequestttr_100_deadline`, `UserRequest_ticket_request`.`ttr_100_passed` AS `UserRequestttr_100_passed`, `UserRequest_ticket_request`.`ttr_100_triggered` AS `UserRequestttr_100_triggered`, `UserRequest_ticket_request`.`ttr_100_overrun` AS `UserRequestttr_100_overrun`, `UserRequest_ticket_request`.`tto_100_deadline` AS `UserRequesttto_escalation_deadline`, `UserRequest_ticket_request`.`tto_100_passed` AS `UserRequestsla_tto_passed`, `UserRequest_ticket_request`.`tto_100_overrun` AS `UserRequestsla_tto_over`, `UserRequest_ticket_request`.`ttr_100_deadline` AS `UserRequestttr_escalation_deadline`, `UserRequest_ticket_request`.`ttr_100_passed` AS `UserRequestsla_ttr_passed`, `UserRequest_ticket_request`.`ttr_100_overrun` AS `UserRequestsla_ttr_over`, `UserRequest_ticket_request`.`time_spent` AS `UserRequesttime_spent`, `UserRequest_ticket_request`.`resolution_code` AS `UserRequestresolution_code`, `UserRequest_ticket_request`.`solution` AS `UserRequestsolution`, `UserRequest_ticket_request`.`pending_reason` AS `UserRequestpending_reason`, `UserRequest_ticket_request`.`tipo_pendiente` AS `UserRequesttipo_pendiente`, `UserRequest_ticket_request`.`parent_request_id` AS `UserRequestparent_request_id`, `UserRequest_parent_request_id_ticket`.`ref` AS `UserRequestparent_request_ref`, `UserRequest_ticket_request`.`public_log` AS `UserRequestpublic_log`, `UserRequest_ticket_request`.`public_log_index` AS `UserRequestpublic_log_index`, `UserRequest_ticket_request`.`user_satisfaction` AS `UserRequestuser_satisfaction`, `UserRequest_ticket_request`.`user_commment` AS `UserRequestuser_comment`, `UserRequest_ticket_request`.`num_orden_compra` AS `UserRequestnum_orden_compra`, `UserRequest_ticket_request`.`direccion` AS `UserRequestdireccion`, `UserRequest_ticket_request`.`num_ot` AS `UserRequestnum_ot`, `UserRequest_ticket_request`.`num_instal` AS `UserRequestnum_instal`, `UserRequest_ticket_request`.`nom_cliente` AS `UserRequestnom_cliente`, `UserRequest_ticket_request`.`nom_contacto` AS `UserRequestnom_contacto`, `UserRequest_ticket_request`.`tel_contacto` AS `UserRequesttel_contacto`, `UserRequest_ticket_request`.`fecha_ejecucion` AS `UserRequestfecha_ejecucion`, `UserRequest_ticket_request`.`departamento` AS `UserRequestdepartamento`, `UserRequest_ticket_request`.`municipio` AS `UserRequestmunicipio`, `UserRequest_ticket_request`.`latitud` AS `UserRequestlatitud`, `UserRequest_ticket_request`.`longitud` AS `UserRequestlongitud`, `UserRequest_ticket_request`.`tipo_acceso` AS `UserRequesttipo_acceso`, `UserRequest_ticket_request`.`tipo_tecnologia` AS `UserRequesttipo_tecnologia`, `UserRequest_ticket_request`.`medidas_feeders` AS `UserRequestmedidas_feeders`, `UserRequest_ticket_request`.`link_modulo` AS `UserRequestlink_modulo`, `UserRequest_ticket_request`.`link_venta` AS `UserRequestlink_venta`, `UserRequest_ticket`.`finalclass` AS `UserRequestfinalclass`, CAST(CONCAT(COALESCE(`UserRequest_ticket`.`ref`, '')) AS CHAR) AS `UserRequestfriendlyname`, CAST(CONCAT(COALESCE(`Organization_org_id_organization`.`name`, '')) AS CHAR) AS `UserRequestorg_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_caller_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_caller_id_contact`.`name`, '')) AS CHAR) AS `UserRequestcaller_id_friendlyname`, CAST(CONCAT(COALESCE(`Team_team_id_contact`.`name`, '')) AS CHAR) AS `UserRequestteam_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_agent_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_agent_id_contact`.`name`, '')) AS CHAR) AS `UserRequestagent_id_friendlyname`, CAST(CONCAT(COALESCE(`Person_approver_id_person`.`first_name`, ''), COALESCE(' ', ''), COALESCE(`Person_approver_id_contact`.`name`, '')) AS CHAR) AS `UserRequestapprover_id_friendlyname`, CAST(CONCAT(COALESCE(`Service_service_id_service`.`name`, '')) AS CHAR) AS `UserRequestservice_id_friendlyname`, CAST(CONCAT(COALESCE(`ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`name`, '')) AS CHAR) AS `UserRequestservicesubcategory_id_friendlyname`, CAST(CONCAT(COALESCE(`UserRequest_parent_request_id_ticket`.`ref`, '')) AS CHAR) AS `UserRequestparent_request_id_friendlyname` FROM `ticket_request` AS `UserRequest_ticket_request`LEFT JOIN (`person` AS `Person_approver_id_person` INNER JOIN `contact` AS `Person_approver_id_contact` ON `Person_approver_id_person`.`id` = `Person_approver_id_contact`.`id`) ON `UserRequest_ticket_request`.`approver_id` = `Person_approver_id_person`.`id`LEFT JOIN `service` AS `Service_service_id_service` ON `UserRequest_ticket_request`.`service_id` = `Service_service_id_service`.`id`LEFT JOIN `servicesubcategory` AS `ServiceSubcategory_servicesubcategory_id_servicesubcategory` ON `UserRequest_ticket_request`.`servicesubcategory_id` = `ServiceSubcategory_servicesubcategory_id_servicesubcategory`.`id`LEFT JOIN (`ticket_request` AS `UserRequest_parent_request_id_ticket_request` INNER JOIN `ticket` AS `UserRequest_parent_request_id_ticket` ON `UserRequest_parent_request_id_ticket_request`.`id` = `UserRequest_parent_request_id_ticket`.`id`) ON `UserRequest_ticket_request`.`parent_request_id` = `UserRequest_parent_request_id_ticket_request`.`id`INNER JOIN (`ticket` AS `UserRequest_ticket` INNER JOIN `organization` AS `Organization_org_id_organization` ON `UserRequest_ticket`.`org_id` = `Organization_org_id_organization`.`id`LEFT JOIN (`person` AS `Person_caller_id_person` INNER JOIN `contact` AS `Person_caller_id_contact` ON `Person_caller_id_person`.`id` = `Person_caller_id_contact`.`id`) ON `UserRequest_ticket`.`caller_id` = `Person_caller_id_person`.`id`LEFT JOIN (`team` AS `Team_team_id_team` INNER JOIN `contact` AS `Team_team_id_contact` ON `Team_team_id_team`.`id` = `Team_team_id_contact`.`id`) ON `UserRequest_ticket`.`team_id` = `Team_team_id_team`.`id`LEFT JOIN (`person` AS `Person_agent_id_person` INNER JOIN `contact` AS `Person_agent_id_contact` ON `Person_agent_id_person`.`id` = `Person_agent_id_contact`.`id`) ON `UserRequest_ticket`.`agent_id` = `Person_agent_id_person`.`id`) ON `UserRequest_ticket_request`.`id` = `UserRequest_ticket`.`id` WHERE (`UserRequest_ticket_request`.`id` = '254')  , mysql_error = Unknown column 'UserRequest_ticket_request.num_orden_compra' in 'field list', mysql_errno = 1054
+2016-03-30 18:31:52 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:32:08 | Error | Unknown attribute Espacio dilejnciado olo por area de Facuracion
+	
+ from class UserRequest
+2016-03-30 18:32:27 | Error | Unknown attribute Espacio dilejnciado olo por area de Facuracion
+	
+ from class UserRequest
+2016-03-30 18:32:34 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:46:09 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 18:56:24 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2016-03-30 19:17:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-01-30 15:16:04 | Error | Failed to log issue into the DB
+2019-01-30 15:16:04 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Could not select DB: db_name = causel, mysql_error = Unknown database \'causel\', mysql_errno = 1049', '2019-01-30 15:16:04', '', 'EventIssue'), mysql_error = No database selected, mysql_errno = 1046
+2019-01-30 15:49:04 | Error | Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Attachment_attachment`.`id`, 0)) AS COUNT FROM `attachment` AS `Attachment_attachment` WHERE ((`Attachment_attachment`.`item_class` = 'UserRequest') AND (`Attachment_attachment`.`item_id` = '423')), mysql_error = Table 'causel.attachment' doesn't exist, mysql_errno = 1146
+2019-01-31 15:31:33 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="localhost"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\itoF7DA.tmp" "causel" . The command returned:1
+2019-01-31 15:31:33 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-01-31 15:31:33 | Error | mysqldump said: operable program or batch file.
+2019-01-31 15:49:51 | Error | Failed to log issue into the DB
+2019-01-31 15:49:51 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Could not select DB: db_name = causel, mysql_error = Access denied for user \'causeldb\'@\'localhost\' to database \'causel\', mysql_errno = 1044', '2019-01-31 15:49:51', '', 'EventIssue'), mysql_error = No database selected, mysql_errno = 1046
+2019-01-31 18:52:00 | Error | Error: estimulo invalido "ev_resolve" en objeto R-000425 en estado "Solucionado".
+2019-01-31 18:52:05 | Error | Error: estimulo invalido "ev_resolve" en objeto R-000425 en estado "Solucionado".
+2019-01-31 18:52:15 | Error | Error: estimulo invalido "ev_resolve" en objeto R-000425 en estado "Solucionado".
+2019-02-01 22:08:19 | Error | Failed to issue SQL query: query = INSERT INTO `ticket_request` (`id`,`status`,`request_type`,`impact`,`priority`,`urgency`,`origin`,`approver_id`,`service_id`,`servicesubcategory_id`,`escalation_flag`,`escalation_reason`,`assignment_date`,`resolution_date`,`last_pending_date`,`cumulatedpending_timespent`,`cumulatedpending_started`,`cumulatedpending_laststart`,`cumulatedpending_stopped`,`tto_timespent`,`tto_started`,`tto_laststart`,`tto_stopped`,`tto_75_deadline`,`tto_75_passed`,`tto_75_triggered`,`tto_75_overrun`,`tto_100_deadline`,`tto_100_passed`,`tto_100_triggered`,`tto_100_overrun`,`ttr_timespent`,`ttr_started`,`ttr_laststart`,`ttr_stopped`,`ttr_75_deadline`,`ttr_75_passed`,`ttr_75_triggered`,`ttr_75_overrun`,`ttr_100_deadline`,`ttr_100_passed`,`ttr_100_triggered`,`ttr_100_overrun`,`time_spent`,`resolution_code`,`solution`,`pending_reason`,`tipo_pendiente`,`parent_request_id`,`public_log`,`public_log_index`,`user_satisfaction`,`user_commment`,`num_orden_compra`,`grn`,`dictamen_tecnico`,`direccion`,`num_ot`,`num_instal`,`nom_cliente`,`nom_contacto`,`tel_contacto`,`fecha_ejecucion`,`departamento`,`municipio`,`latitud`,`longitud`,`tipo_acceso`,`tipo_tecnologia`,`medidas_feeders`,`link_modulo`,`link_venta`) VALUES (427, 'new', 'service_request', '2', '4', '4', 'phone', 0, 0, 0, 'no', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, '2019-02-01 22:08:19', '2019-02-01 22:08:19', NULL, NULL, '0', '0', NULL, NULL, '0', '0', NULL, 0, NULL, NULL, NULL, NULL, '0', '0', NULL, NULL, '0', '0', NULL, NULL, 'assistance', '', '', NULL, 0, '', 'a:0:{}', '1', '', 'Diligenciar por encargado de facturación', 'Diligenciar por encargado de facturación', 'No', 'SDF', 'ETRTERT', 'IUIUYI', 'JKHKJ', 'SDFSDF', 'LJKJHJK', '2019-02-01 22:07:32', '', '', NULL, NULL, 'Otros', 'Otros', 'Otros', '', ''), mysql_error = Can't update table 'ticket_request' in stored function/trigger because it is already used by statement which invoked this stored function/trigger., mysql_errno = 1442
+2019-02-01 22:16:00 | Error | Failed to issue SQL query: query = INSERT INTO `ticket_request` (`id`,`status`,`request_type`,`impact`,`priority`,`urgency`,`origin`,`approver_id`,`service_id`,`servicesubcategory_id`,`escalation_flag`,`escalation_reason`,`assignment_date`,`resolution_date`,`last_pending_date`,`cumulatedpending_timespent`,`cumulatedpending_started`,`cumulatedpending_laststart`,`cumulatedpending_stopped`,`tto_timespent`,`tto_started`,`tto_laststart`,`tto_stopped`,`tto_75_deadline`,`tto_75_passed`,`tto_75_triggered`,`tto_75_overrun`,`tto_100_deadline`,`tto_100_passed`,`tto_100_triggered`,`tto_100_overrun`,`ttr_timespent`,`ttr_started`,`ttr_laststart`,`ttr_stopped`,`ttr_75_deadline`,`ttr_75_passed`,`ttr_75_triggered`,`ttr_75_overrun`,`ttr_100_deadline`,`ttr_100_passed`,`ttr_100_triggered`,`ttr_100_overrun`,`time_spent`,`resolution_code`,`solution`,`pending_reason`,`tipo_pendiente`,`parent_request_id`,`public_log`,`public_log_index`,`user_satisfaction`,`user_commment`,`num_orden_compra`,`grn`,`dictamen_tecnico`,`direccion`,`num_ot`,`num_instal`,`nom_cliente`,`nom_contacto`,`tel_contacto`,`fecha_ejecucion`,`departamento`,`municipio`,`latitud`,`longitud`,`tipo_acceso`,`tipo_tecnologia`,`medidas_feeders`,`link_modulo`,`link_venta`) VALUES (429, 'new', 'service_request', '2', '4', '4', 'phone', 0, 0, 0, 'no', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, '2019-02-01 22:16:00', '2019-02-01 22:16:00', NULL, NULL, '0', '0', NULL, NULL, '0', '0', NULL, 0, NULL, NULL, NULL, NULL, '0', '0', NULL, NULL, '0', '0', NULL, NULL, 'assistance', '', '', NULL, 0, '', 'a:0:{}', '1', '', 'Diligenciar por encargado de facturación', 'Diligenciar por encargado de facturación', 'No', 'OI7UOIUOI', 'LKKLJJL', 'LKJLKJ', 'LKJLKJ', 'JLKJL', 'LKJLKJLK', '2019-02-01 22:15:29', '', '', NULL, NULL, 'Otros', 'Otros', 'Otros', '', ''), mysql_error = Can't update table 'ticket_request' in stored function/trigger because it is already used by statement which invoked this stored function/trigger., mysql_errno = 1442
+2019-02-05 14:19:05 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:20:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:21:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:22:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:23:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:24:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:25:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:26:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:27:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:28:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:29:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:30:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:31:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:32:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:33:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:34:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:35:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:36:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:37:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:38:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:39:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:40:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:41:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:42:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:43:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:44:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:45:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:46:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:47:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:48:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:49:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:50:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:51:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:52:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:53:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:54:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:55:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:56:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:57:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:58:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 14:59:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:00:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:01:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:02:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:03:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:04:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:05:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:06:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:07:03 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}
+2019-02-05 15:08:02 | Error | Could not connect to the DB server: host = localhost, user = aws_1, mysql_error = 1045, mysql_errno = Access denied for user 'aws_1'@'localhost' (using password: YES)
+Debug trace:
+#0 /home/alltic/public_html/WFM/core/metamodel.class.php(4243): CMDBSource::Init('localhost', 'aws_1', 'Alltic2017')
+#1 /home/alltic/public_html/WFM/core/metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 /home/alltic/public_html/WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/WFM/pages/ajax.render.php(40): require_once('/home/alltic/pu...')
+#4 {main}

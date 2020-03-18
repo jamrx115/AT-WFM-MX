@@ -1,0 +1,29 @@
+[05-Feb-2019 15:38:33 Europe/Paris] PHP Fatal error:  Uncaught exception 'ConfigException' with message 'Missing array in configuration file: file = /home/alltic/public_html/AT-WFM/conf/production/config-itop.php, expected = $MySettings' in /home/alltic/public_html/AT-WFM/core/config.class.inc.php:1119
+Stack trace:
+#0 /home/alltic/public_html/AT-WFM/core/config.class.inc.php(1057): Config->Load('/home/alltic/pu...')
+#1 /home/alltic/public_html/AT-WFM/application/utils.inc.php(474): Config->__construct('/home/alltic/pu...')
+#2 /home/alltic/public_html/AT-WFM/application/utils.inc.php(493): utils::GetConfig()
+#3 /home/alltic/public_html/AT-WFM/application/webpage.class.inc.php(291): utils::GetAbsoluteUrlAppRoot()
+#4 /home/alltic/public_html/AT-WFM/application/nicewebpage.class.inc.php(97): WebPage->add_saas('css/light-grey....')
+#5 /home/alltic/public_html/AT-WFM/setup/setuppage.class.inc.php(38): NiceWebPage->__construct('Welcome to iTop...')
+#6 /home/alltic/public_html/AT-WFM/setup/wizardcontroller.class.inc.php(166): SetupPage->__construct('Welcome to iTop...') in /home/alltic/public_html/AT-WFM/core/config.class.inc.php on line 1119
+[05-Feb-2019 15:42:27 Europe/Paris] PHP Fatal error:  Uncaught exception 'ConfigException' with message 'Missing array in configuration file: file = /home/alltic/public_html/WFM/conf/production/config-itop.php, expected = $MySettings' in /home/alltic/public_html/WFM/core/config.class.inc.php:1119
+Stack trace:
+#0 /home/alltic/public_html/WFM/core/config.class.inc.php(1057): Config->Load('/home/alltic/pu...')
+#1 /home/alltic/public_html/WFM/application/utils.inc.php(474): Config->__construct('/home/alltic/pu...')
+#2 /home/alltic/public_html/WFM/application/utils.inc.php(493): utils::GetConfig()
+#3 /home/alltic/public_html/WFM/application/webpage.class.inc.php(291): utils::GetAbsoluteUrlAppRoot()
+#4 /home/alltic/public_html/WFM/application/nicewebpage.class.inc.php(97): WebPage->add_saas('css/light-grey....')
+#5 /home/alltic/public_html/WFM/setup/setuppage.class.inc.php(38): NiceWebPage->__construct('Welcome to iTop...')
+#6 /home/alltic/public_html/WFM/setup/wizardcontroller.class.inc.php(166): SetupPage->__construct('Welcome to iTop...')
+#7 /home/alltic/public_htm in /home/alltic/public_html/WFM/core/config.class.inc.php on line 1119
+[05-Feb-2019 15:59:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'ConfigException' with message 'Missing array in configuration file: file = /home/alltic/public_html/WFM/conf/production/config-itop.php, expected = $MySettings' in /home/alltic/public_html/WFM/core/config.class.inc.php:1119
+Stack trace:
+#0 /home/alltic/public_html/WFM/core/config.class.inc.php(1057): Config->Load('/home/alltic/pu...')
+#1 /home/alltic/public_html/WFM/application/utils.inc.php(474): Config->__construct('/home/alltic/pu...')
+#2 /home/alltic/public_html/WFM/application/utils.inc.php(493): utils::GetConfig()
+#3 /home/alltic/public_html/WFM/application/webpage.class.inc.php(291): utils::GetAbsoluteUrlAppRoot()
+#4 /home/alltic/public_html/WFM/application/nicewebpage.class.inc.php(97): WebPage->add_saas('css/light-grey....')
+#5 /home/alltic/public_html/WFM/setup/setuppage.class.inc.php(38): NiceWebPage->__construct('Welcome to iTop...')
+#6 /home/alltic/public_html/WFM/setup/wizardcontroller.class.inc.php(166): SetupPage->__construct('Welcome to iTop...')
+#7 /home/alltic/public_htm in /home/alltic/public_html/WFM/core/config.class.inc.php on line 1119

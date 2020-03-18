@@ -1,0 +1,46 @@
+textarea{
+	border: none;
+}
+
+div.gallery {
+  margin: 5px 5px;
+  float: left;
+  width: 98%;
+  height: auto;
+
+ 
+
+}
+
+
+div.gallery img {
+ float: left;
+ width: 100%;
+ height: auto;
+ text-align: center;
+ margin-bottom: 10px;
+  border: 1px solid #ccc;
+
+  
+
+
+} 
+
+div.desc {
+  margin-bottom: 16px;
+}
+
+textarea {
+
+}
+
+
+a {
+
+  position: relative;
+  z-index: 10;
+}
+
+#inputImage {
+	display: none;
+}

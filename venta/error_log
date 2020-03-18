@@ -1,0 +1,118 @@
+[25-Jan-2016 22:03:55 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/alltic/public_html/causel/venta/index.php on line 1
+[25-Jan-2016 22:04:19 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/alltic/public_html/causel/venta/index.php on line 1
+[25-Jan-2016 22:06:31 UTC] PHP Notice:  Undefined variable: sum in /home/alltic/public_html/causel/venta/index.php on line 125
+[25-Jan-2016 22:16:07 UTC] PHP Notice:  Undefined variable: sum in /home/alltic/public_html/causel/venta/index.php on line 137
+[25-Jan-2016 22:17:08 UTC] PHP Notice:  Undefined variable: sum in /home/alltic/public_html/causel/venta/guardar.php on line 29
+[25-Jan-2016 22:17:42 UTC] PHP Notice:  Undefined variable: sum in /home/alltic/public_html/causel/venta/elimina.php on line 40
+[17-Mar-2016 04:07:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '148target' in 'where clause'' in /home/alltic/public_html/causel/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/causel/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/causel/venta/index.php on line 122
+[17-Mar-2016 04:36:02 UTC] PHP Notice:  Undefined index: id in /home/alltic/public_html/causel/venta/guarda_fecha.php on line 3
+[17-Mar-2016 04:42:04 UTC] PHP Notice:  Undefined index: id in /home/alltic/public_html/causel/venta/guarda_fecha.php on line 3
+[31-Jan-2019 15:18:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 15:21:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 15:55:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 16:10:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 16:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 16:20:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[31-Jan-2019 17:47:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 20:40:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 20:51:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 20:57:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 20:58:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 20:58:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 21:33:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 21:47:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 21:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 21:50:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 21:50:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 22:37:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 22:37:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 23:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122
+[01-Feb-2019 23:46:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alltic_causel.VW_COSTO_OT' doesn't exist' in /home/alltic/public_html/WFM/venta/index.php:122
+Stack trace:
+#0 /home/alltic/public_html/WFM/venta/index.php(122): PDO->query('select * from `...')
+#1 {main}
+  thrown in /home/alltic/public_html/WFM/venta/index.php on line 122

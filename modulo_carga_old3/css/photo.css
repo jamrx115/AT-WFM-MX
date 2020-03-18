@@ -1,0 +1,57 @@
+textarea{
+	border: none;
+}
+
+div.gallery {
+  margin: 5px 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 98%;
+  height: auto;
+
+ 
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+ float: left;
+ width: 100%;
+ height: auto;
+ text-align: center;
+ margin-bottom: 10px;
+
+  
+
+
+} 
+
+div.desc {
+  position: relative;
+  height: auto;
+  padding: 15px 15px 15px;
+  text-align: center;
+
+
+}
+
+textarea {
+
+}
+
+
+a {
+
+  position: relative;
+  z-index: 10;
+	}
+
+  .desc a {
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  color:gray;
+}

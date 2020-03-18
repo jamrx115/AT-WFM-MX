@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+	  <class id="UserRequest">
+	   <fields>
+	 		<field id="num_ot" xsi:type="AttributeString" _delta = "define">
+				<sql>num_ot</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+			<field id="num_instal" xsi:type="AttributeString" _delta = "define">
+				<sql>num_instal</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+			<field id="nom_cliente" xsi:type="AttributeString" _delta = "define">
+				<sql>nom_cliente</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+			<field id="nom_contacto" xsi:type="AttributeString" _delta = "define">
+				<sql>nom_contacto</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+			<field id="tel_contacto" xsi:type="AttributeString" _delta = "define">
+				<sql>tel_contacto</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+			<field id="fecha_ejecucion" xsi:type="AttributeDateTime" _delta = "define">
+				<sql>fecha_ejecucion</sql>
+				<default_value/>
+				<is_null_allowed>false</is_null_allowed>
+			</field>
+		
+			<field id="departamento" xsi:type="AttributeString" _delta = "define">
+				<sql>departamento</sql>
+				<default_value/>
+				<is_null_allowed>true</is_null_allowed>
+			</field>
+			<field id="municipio" xsi:type="AttributeString" _delta = "define">
+				<sql>municipio</sql>
+				<default_value/>
+				<is_null_allowed>true</is_null_allowed>
+			</field>
+			<field id="latitud" xsi:type="AttributeDecimal" _delta="define">
+			  <sql>latitud</sql>
+			  <default_value/>
+			  <is_null_allowed>true</is_null_allowed>
+			  <digits>16</digits>
+			  <decimals>8</decimals>
+			</field>
+			<field id="longitud" xsi:type="AttributeDecimal" _delta="define">
+			  <sql>longitud</sql>
+			  <default_value/>
+			  <is_null_allowed>true</is_null_allowed>
+			  <digits>16</digits>
+			  <decimals>8</decimals>
+			</field>	
+			<field id="tipo_acceso" xsi:type="AttributeEnum" _delta="define">
+			<values>
+            <value id="Llave Maestra">Llave Maestra</value>
+            <value id="Llave Multilook">Llave Multilook</value>
+			<value id="Carta Especial">Carta Especial</value>
+			<value id="Otros">Otros</value>
+            </values>
+			<sql>tipo_acceso</sql>
+            <default_value>Otros</default_value>
+            <is_null_allowed>true</is_null_allowed>
+			</field>
+			<field id="tipo_tecnologia" xsi:type="AttributeEnum" _delta="define">
+			<values>
+            <value id="2G">2G</value>
+            <value id="3G">3G</value>
+			<value id="LTE">LTE</value>
+			<value id="Otros">Otros</value>
+            </values>
+			<sql>tipo_tecnologia</sql>
+            <default_value>Otros</default_value>
+            <is_null_allowed>true</is_null_allowed>
+			</field>
+			<field id="medidas_feeders" xsi:type="AttributeEnum" _delta="define">
+			<values>
+            <value id="7/8">7/8</value>
+            <value id="1 5/8">1 5/8</value>
+			<value id="1/2">1/2</value>
+			<value id="FO">FO</value>
+			<value id="Otros">Otros</value>
+            </values>
+			<sql>medidas_feeders</sql>
+            <default_value>Otros</default_value>
+            <is_null_allowed>true</is_null_allowed>
+			</field>
+			<field  id="link_modulo" xsi:type="AttributeHTML" _delta = "define">
+			<sql>link_modulo</sql>
+			<default_value></default_value>
+			<is_null_allowed>true</is_null_allowed>
+			</field>
+			<field  id="link_venta" xsi:type="AttributeHTML" _delta = "define">
+			<sql>link_venta</sql>
+			<default_value></default_value>
+			<is_null_allowed>true</is_null_allowed>
+			</field>
+		</fields>	
+<presentation>
+        <details>
+          <items>
+            <item id="functionalcis_list">
+              <rank>10</rank>
+            </item>
+            <item id="contacts_list">
+              <rank>20</rank>
+            </item>
+            <item id="related_request_list">
+              <rank>30</rank>
+            </item>
+            <item id="workorders_list">
+              <rank>40</rank>
+            </item>
+            <item id="col:col1">
+              <rank>50</rank>
+              <items>
+                <item id="fieldset:Ticket:baseinfo">
+                  <rank>10</rank>
+                  <items>
+                    <item id="org_id">
+                      <rank>10</rank>
+                    </item>
+                    <item id="caller_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="status">
+                      <rank>30</rank>
+                    </item>
+                    <item id="origin">
+                      <rank>40</rank>
+                    </item>
+                    <item id="title">
+                      <rank>50</rank>
+                    </item>
+                    <item id="description">
+                      <rank>60</rank>
+                    </item>
+					<item id="departamento">
+                      <rank>70</rank>
+                    </item>
+					<item id="municipio">
+                      <rank>80</rank>
+                    </item>
+					 <item id="latitud">
+                      <rank>90</rank>
+                    </item>
+					 <item id="longitud">
+                      <rank>100</rank>
+                    </item>
+					  <item id="direccion">
+                      <rank>110</rank>
+                    </item>
+					<item id="num_ot">
+                      <rank>120</rank>
+                    </item>
+					<item id="num_instal">
+                      <rank>130</rank>
+                    </item>
+					<item id="nom_cliente">
+                      <rank>140</rank>
+                    </item>
+					<item id="nom_contacto">
+                      <rank>150</rank>
+                    </item>
+					<item id="tel_contacto">
+                      <rank>160</rank>
+                    </item>
+					<item id="fecha_ejecucion">
+                      <rank>170</rank>
+                    </item>
+					
+					<item id="link_modulo">
+                      <rank>180</rank>
+                    </item>
+					<item id="link_venta">
+                      <rank>190</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:moreinfo">
+                  <rank>20</rank>
+                  <items>
+                    <item id="service_id">
+                      <rank>10</rank>
+                    </item>
+                    <item id="servicesubcategory_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="escalation_flag">
+                      <rank>30</rank>
+                    </item>
+                    <item id="escalation_reason">
+                      <rank>40</rank>
+                    </item>
+                    <item id="pending_reason">
+                      <rank>50</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="col:col2">
+              <rank>60</rank>
+              <items>
+                <item id="fieldset:Ticket:Type">
+                  <rank>10</rank>
+                  <items>
+                    <item id="request_type">
+                      <rank>10</rank>
+                    </item>
+                    <item id="impact">
+                      <rank>20</rank>
+                    </item>
+                    <item id="urgency">
+                      <rank>30</rank>
+                    </item>
+                    <item id="priority">
+                      <rank>40</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:contact">
+                  <rank>20</rank>
+                  <items>
+                    <item id="team_id">
+                      <rank>10</rank>
+                    </item>
+                    <item id="agent_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="approver_id">
+                      <rank>30</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:date">
+                  <rank>30</rank>
+                  <items>
+                    <item id="start_date">
+                      <rank>10</rank>
+                    </item>
+                    <item id="last_update">
+                      <rank>20</rank>
+                    </item>
+                    <item id="assignment_date">
+                      <rank>30</rank>
+                    </item>
+                    <item id="tto_escalation_deadline">
+                      <rank>40</rank>
+                    </item>
+                    <item id="ttr_escalation_deadline">
+                      <rank>50</rank>
+                    </item>
+                    <item id="last_pending_date">
+                      <rank>60</rank>
+                    </item>
+                    <item id="resolution_date">
+                      <rank>70</rank>
+                    </item>
+                    <item id="close_date">
+                      <rank>80</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="col:col3">
+              <rank>70</rank>
+              <items>
+                <item id="fieldset:Ticket:relation">
+                  <rank>10</rank>
+                  <items>
+                    <item id="parent_request_id">
+                      <rank>10</rank>
+                    </item>
+                    <item id="parent_incident_id">
+                      <rank>20</rank>
+                    </item>
+                    <item id="parent_problem_id">
+                      <rank>30</rank>
+                    </item>
+                    <item id="parent_change_id">
+                      <rank>40</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:resolution">
+                  <rank>20</rank>
+                  <items>
+                    <item id="resolution_code">
+                      <rank>10</rank>
+                    </item>
+                    <item id="solution">
+                      <rank>20</rank>
+                    </item>
+                    <item id="time_spent">
+                      <rank>30</rank>
+                    </item>
+                    <item id="user_satisfaction">
+                      <rank>40</rank>
+                    </item>
+                    <item id="user_comment">
+                      <rank>50</rank>
+                    </item>
+                  </items>
+                </item>
+                <item id="fieldset:Ticket:SLA">
+                  <rank>30</rank>
+                  <items>
+                    <item id="sla_tto_passed">
+                      <rank>10</rank>
+                    </item>
+                    <item id="sla_tto_over">
+                      <rank>20</rank>
+                    </item>
+                    <item id="sla_ttr_passed">
+                      <rank>30</rank>
+                    </item>
+                    <item id="sla_ttr_over">
+                      <rank>40</rank>
+                    </item>
+					
+                  </items>
+                </item>
+              </items>
+            </item>
+          </items>
+        </details>
+        <search>
+          <items>
+            <item id="ref">
+              <rank>10</rank>
+            </item>
+            <item id="org_id">
+              <rank>20</rank>
+            </item>
+            <item id="title">
+              <rank>30</rank>
+            </item>
+            <item id="description">
+              <rank>40</rank>
+            </item>
+			<item id="departamento">
+			<rank>50</rank>
+			</item>
+			<item id="municipio">
+			  <rank>60</rank>
+			</item>
+			<item id="latitud">
+			 <rank>70</rank>
+			</item>
+			 <item id="longitud">
+			 <rank>80</rank>
+				</item>
+			<item id="direccion">
+			  <rank>90</rank>
+			</item>
+			<item id="num_ot">
+		   <rank>100</rank>
+			</item>
+			<item id="num_instal">
+			  <rank>110</rank>
+			</item>
+			<item id="nom_cliente">
+			  <rank>120</rank>
+			</item>
+			<item id="nom_contacto">
+			  <rank>130</rank>
+			</item>
+			<item id="tel_contacto">
+			  <rank>140</rank>
+			</item>
+			<item id="fecha_ejecucion">
+			  <rank>150</rank>
+			</item>
+			
+            <item id="start_date">
+              <rank>160</rank>
+            </item>
+            <item id="resolution_date">
+              <rank>170</rank>
+            </item>
+            <item id="close_date">
+              <rank>180</rank>
+            </item>
+            <item id="status">
+              <rank>190</rank>
+            </item>
+            <item id="caller_id">
+              <rank>200</rank>
+            </item>
+            <item id="origin">
+              <rank>210</rank>
+            </item>
+            <item id="request_type">
+              <rank>220</rank>
+            </item>
+            <item id="impact">
+              <rank>230</rank>
+            </item>
+            <item id="urgency">
+              <rank>240</rank>
+            </item>
+            <item id="priority">
+              <rank>250</rank>
+            </item>
+            <item id="service_id">
+              <rank>260</rank>
+            </item>
+            <item id="servicesubcategory_id">
+              <rank>270</rank>
+            </item>
+            <item id="team_id">
+              <rank>280</rank>
+            </item>
+            <item id="agent_id">
+              <rank>290</rank>
+            </item>
+            <item id="escalation_flag">
+              <rank>300</rank>
+            </item>
+            <item id="resolution_code">
+              <rank>310</rank>
+            </item>
+            <item id="user_satisfaction">
+              <rank>320</rank>
+            </item>
+            <item id="sla_tto_passed">
+              <rank>330</rank>
+            </item>
+            <item id="sla_ttr_passed">
+              <rank>340</rank>
+            </item>
+          </items>
+        </search>
+        <list>
+          <items>
+            <item id="title">
+              <rank>10</rank>
+            </item>
+            <item id="org_id">
+              <rank>20</rank>
+            </item>
+            <item id="caller_id">
+              <rank>30</rank>
+            </item>
+            <item id="start_date">
+              <rank>40</rank>
+            </item>
+            <item id="status">
+              <rank>50</rank>
+            </item>
+            <item id="agent_id">
+              <rank>60</rank>
+            </item>
+			<item id="direccion">
+			  <rank>70</rank>
+			</item>
+			<item id="num_ot">
+		   <rank>80</rank>
+			</item>
+			<item id="num_instal">
+			  <rank>90</rank>
+			</item>
+			<item id="nom_cliente">
+			  <rank>100</rank>
+			</item>
+			<item id="nom_contacto">
+			  <rank>110</rank>
+			</item>
+			<item id="tel_contacto">
+			  <rank>120</rank>
+			</item>
+			<item id="fecha_ejecucion">
+			  <rank>130</rank>
+			</item>
+			
+			
+			
+          </items>
+        </list>
+      </presentation>		
+	  </class>
+  </classes>  
+</itop_design>

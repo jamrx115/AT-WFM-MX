@@ -1,0 +1,8 @@
+[05-Feb-2019 15:20:36 Europe/Paris] PHP Fatal error:  Uncaught exception 'ConfigException' with message 'Missing array in configuration file: file = /home/alltic/public_html/AT-WFM/conf/production/config-itop.php, expected = $MySettings' in /home/alltic/public_html/AT-WFM/core/config.class.inc.php:1119
+Stack trace:
+#0 /home/alltic/public_html/AT-WFM/core/config.class.inc.php(1057): Config->Load('/home/alltic/pu...')
+#1 /home/alltic/public_html/AT-WFM/core/metamodel.class.php(4041): Config->__construct('/home/alltic/pu...')
+#2 /home/alltic/public_html/AT-WFM/application/startup.inc.php(47): MetaModel::Startup('/home/alltic/pu...')
+#3 /home/alltic/public_html/AT-WFM/toolkit/index.php(108): require_once('/home/alltic/pu...')
+#4 {main}
+  thrown in /home/alltic/public_html/AT-WFM/core/config.class.inc.php on line 1119

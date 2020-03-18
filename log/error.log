@@ -1,0 +1,217 @@
+2019-02-05 23:29:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-05 23:29:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-08 18:48:18 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-08 18:48:18 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 16:54:01 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 16:54:01 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:01:50 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:01:50 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:01:50 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:35:08 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:35:08 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:35:08 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:39:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:39:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-12 17:39:36 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 20:34:52 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 20:34:52 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 20:47:49 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-13 23:16:35 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\ito784A.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:16:35 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:16:35 | Error | mysqldump said: operable program or batch file.
+2019-02-13 23:23:23 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\itoB40E.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:23:23 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:23:23 | Error | mysqldump said: operable program or batch file.
+2019-02-13 23:24:44 | Error | Failed to execute: mysqldump --opt --default-character-set=utf8 --add-drop-database --single-transaction --host="alltic.co"  --user=xxxxx --password=xxxxx --result-file="C:\Users\allticpc\AppData\Local\Temp\itoED5A.tmp" "alltic_causel" . The command returned:1
+2019-02-13 23:24:44 | Error | mysqldump said: 'mysqldump' is not recognized as an internal or external command,
+2019-02-13 23:24:44 | Error | mysqldump said: operable program or batch file.
+2019-02-15 20:24:27 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:24:27 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:33:38 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:33:39 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 20:36:40 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 23:50:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 23:50:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-15 23:50:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 15:14:01 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 15:14:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 15:14:02 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 15:20:15 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 15:20:15 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:34:29 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:34:29 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:34:29 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:45:07 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:45:07 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 18:45:08 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 19:38:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 19:38:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 19:38:04 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 20:40:14 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:40:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:42:04 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:43:04 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:43:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:44:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:46:04 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:46:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:47:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 20:48:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:14:14 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:15:14 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:15:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:16:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:17:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:18:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:19:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:20:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:21:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:22:53 | Error | Could not connect to the DB server: host = alltic.co, user = itop, mysql_error = 2002, mysql_errno = php_network_getaddresses: getaddrinfo failed: No such host is known. 
+Debug trace:
+#0 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4243): CMDBSource::Init('alltic.co', 'itop', 'itop2019')
+#1 D:\servidor\htdocs\AT-WFM\core\metamodel.class.php(4041): MetaModel::LoadConfig(Object(Config), true)
+#2 D:\servidor\htdocs\AT-WFM\application\startup.inc.php(47): MetaModel::Startup('D:\\servidor\\htd...')
+#3 D:\servidor\htdocs\AT-WFM\pages\ajax.render.php(40): require_once('D:\\servidor\\htd...')
+#4 {main}
+2019-02-18 21:27:26 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:27:26 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:27:26 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:28:55 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:40:29 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:51:45 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:51:45 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:51:45 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 21:53:24 | Error | Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado".
+2019-02-18 21:53:28 | Error | Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado".
+2019-02-18 21:54:17 | Error | Error: estimulo invalido "ev_assign" en objeto R-000439 en estado "Asignado".
+2019-02-18 22:06:20 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 22:06:20 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-02-18 23:27:46 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-12-04 23:10:19 | Info | BackupHandler::OnMetaModelStarted A user is trying to use iTop while a restore is running. The requested page is in read-only mode.
+2019-12-09 20:42:06 | Error | Failed to log issue into the DB
+2019-12-09 20:42:06 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table \'wfmmexico.organization\' doesn\'t exist, mysql_errno = 1146', '2019-12-09 20:42:06', '', 'EventIssue'), mysql_error = Table 'wfmmexico.priv_event' doesn't exist, mysql_errno = 1146
+2019-12-09 20:46:17 | Error | Failed to log issue into the DB
+2019-12-09 20:46:17 | Error | Failed to issue SQL query: query = INSERT INTO `priv_event` (`message`,`date`,`userinfo`,`realclass`) VALUES ('Failed to issue SQL query: query = SELECT COUNT(DISTINCT COALESCE(`Organization_organization`.`id`, 0)) AS COUNT FROM `organization` AS `Organization_organization` WHERE 1, mysql_error = Table \'wfmmexico.organization\' doesn\'t exist, mysql_errno = 1146', '2019-12-09 20:46:17', '', 'EventIssue'), mysql_error = Table 'wfmmexico.priv_event' doesn't exist, mysql_errno = 1146
