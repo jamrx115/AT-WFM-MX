@@ -981,7 +981,7 @@
               <attribute id="description">
                 <read_only/>
               </attribute>
-			   <attribute id="departamento">
+			   <attribute id="nom_cliente">
                 <read_only/>
               </attribute>
 			   <attribute id="municipio">
@@ -1002,7 +1002,7 @@
 			   <attribute id="num_instal">
                 <read_only/>
               </attribute>
-			   <attribute id="nom_cliente">
+			   <attribute id="departamento">
                 <read_only/>
               </attribute>
 			  <attribute id="nom_contacto">
@@ -1523,9 +1523,7 @@
                     <item id="caller_id">
                       <rank>20</rank>
                     </item>
-                    <item id="status">
-                      <rank>30</rank>
-                    </item>
+                    
                     <item id="origin">
                       <rank>40</rank>
                     </item>
@@ -1535,40 +1533,48 @@
                     <item id="description">
                       <rank>60</rank>
                     </item>
-					 <item id="departamento">
-                      <rank>70</rank>
-                    </item>
-					 <item id="municipio">
+                    <item id="num_ot">					  
+						<rank>70</rank>					
+					</item>
+					 <item id="nom_cliente">
                       <rank>80</rank>
                     </item>
-					 <item id="latitud">
+					 <item id="num_instal">
                       <rank>90</rank>
                     </item>
-					 <item id="longitud">
-                      <rank>100</rank>
-                    </item>
-					<item id="direccion">
+                    <item id="direccion">
+					  <rank>100</rank>
+					</item>
+					 <item id="departamento">
                       <rank>110</rank>
                     </item>
-					<item id="num_ot">
-				   <rank>120</rank>
-					</item>
-					<item id="num_instal">
+					 <item id="municipio">
+                      <rank>120</rank>
+                    </item>
+                    <item id="latitud">
 					  <rank>130</rank>
-					</item>
-					<item id="nom_cliente">
-					  <rank>140</rank>
-					</item>
+					</item>	
 					<item id="nom_contacto">
-					  <rank>150</rank>
-					</item>										
-					<item id="tel_contacto">					  
-						<rank>160</rank>					
-					</item>
-					<item id="fecha_ejecucion">
+                      <rank>140</rank>
+                    </item>
+					<item id="tel_contacto">
+				   <rank>150</rank>
+				   </item>
+				   <item id="email">
+                      <rank>160</rank>
+                    </item>
+				   <item id="fecha_ejecucion">
 					  <rank>170</rank>
 					</item>
-					
+					<item id="longitud">
+					  <rank>180</rank>
+					</item>
+					<item id="link_modulo">
+					  <rank>190</rank>
+					</item>
+					<item id="status">
+                      <rank>200</rank>
+                    </item>
                   </items>
                 </item>
                 <item id="fieldset:Ticket:moreinfo">
